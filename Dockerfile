@@ -7,7 +7,7 @@ RUN apt-get -y update && apt-get -y upgrade
 RUN apt-get -y install software-properties-common
 
 # Install Python
-# RUN apt-get -y install Python3.10
+RUN apt-get -y install Python3.10
 
 
 CMD echo "Hello, Dumbass, this is a test"
