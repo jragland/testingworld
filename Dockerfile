@@ -1,6 +1,6 @@
 # Use debian, slim version, to get a familiar environment
 # For local testing - docker run --rm -it debian:buster-slim /bin/bash
-FROM ubuntu:rolling
+FROM ubuntu:21.10
 
 # Run updates for Ubuntu
 RUN apt-get -y update && apt-get -y upgrade
