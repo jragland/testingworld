@@ -8,3 +8,5 @@ Currently, I am working on the following items:
     * Tested: Simple python based container
 * Building Python Scripts
     * Tested: Simple scripts to return strings
+* Build a "Hello World" Demo in Go
+    * Tested: Able to run locally
