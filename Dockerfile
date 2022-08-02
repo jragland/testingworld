@@ -1,6 +1,6 @@
 # Use debian, slim version, to get a familiar environment
 # For local testing - docker run --rm -it debian:buster-slim /bin/bash
-FROM ubuntu:latest
+FROM ubuntu:22.04
 
 # Run updates for Ubuntu
 RUN apt-get -y update && apt-get -y upgrade
