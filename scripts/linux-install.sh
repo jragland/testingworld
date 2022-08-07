@@ -1,7 +1,6 @@
 #!/bin/sh
 
-# The following script is intended to help developers get the prerequisite tools
-# installed on their system so they can setup, locally, the api-gateway repo
+# This script is intended to setup multiple tools inside of a linux (debian) environment
 
 # Perform an update of apt-get and then perform an install 
 # of curl, wget, gnupg2, and libdigest-sha-perl to make your life easierf
