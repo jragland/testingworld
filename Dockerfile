@@ -2,12 +2,17 @@
 # For local testing - docker run --rm -it debian:buster-slim /bin/bash
 FROM ubuntu:22.04
 
-# Run updates for Ubuntu
-RUN apt-get -y update && apt-get -y upgrade
-RUN apt-get -y install software-properties-common
+# I am commenting the following in place of running an install script
+# # Run updates for Ubuntu
+# RUN apt-get -y update && apt-get -y upgrade
+# RUN apt-get -y install software-properties-common
 
-# Install Python
-RUN apt-get -y install Python3.10
-
-
+# # Install Python
+# RUN apt-get -y install Python3.10
+# # Echo a message from Python back to the user
 # CMD echo "Hello, Dumbass, this is a test"
+
+# The following will copy a script to the container for execution
+COPY scripts/linux-install.sh /tmp
+
+CMD /tmp/.linux-install.sh
