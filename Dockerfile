@@ -10,4 +10,4 @@ RUN apt-get -y install software-properties-common
 RUN apt-get -y install Python3.10
 
 
-CMD echo "Hello, Dumbass, this is a test"
+# CMD echo "Hello, Dumbass, this is a test"
