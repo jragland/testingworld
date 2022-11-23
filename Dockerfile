@@ -2,12 +2,18 @@
 # For local testing - docker run --rm -it debian:buster-slim /bin/bash
 FROM ubuntu:22.04
 
+# Updating and adding of tools/apps
+
+RUN apt-get update && \
+      apt-get -y install sudo \
+      apt-get -y install ruby
+
 # Adding the following to give me a user inside the container with sudo
 # access
-RUN apt-get update && \
-      apt-get -y install sudo 
 
 RUN useradd -m docker && echo "docker:docker" | chpasswd && adduser docker sudo
+
+
 
 USER docker
 CMD /bin/bash
