@@ -6,7 +6,8 @@ FROM ubuntu:22.04
 
 RUN apt-get update && \
       apt-get -y install sudo \
-      apt-get -y install ruby
+      apt-get -y install ruby \
+      apt-get -y install python3.11
 
 # Adding the following to give me a user inside the container with sudo
 # access
