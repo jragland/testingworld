@@ -5,6 +5,7 @@ FROM ubuntu:22.04
 # Updating and adding of tools/apps
 
 RUN apt-get update && \
+      apt-get -y install software-properties-common \
       apt-get -y install sudo \
       apt-get -y install ruby \
       apt-get -y install python3.11
@@ -13,8 +14,6 @@ RUN apt-get update && \
 # access
 
 RUN useradd -m docker && echo "docker:docker" | chpasswd && adduser docker sudo
-
-
 
 USER docker
 CMD /bin/bash
