@@ -8,7 +8,8 @@ RUN apt-get update && \
       apt-get -y install software-properties-common \
       apt-get -y install sudo \
       apt-get -y install ruby \
-      apt-get -y install python3.11
+      apt-get -y install python3.11 \
+      apt-get -y install nodejs 
 
 # Adding the following to give me a user inside the container with sudo
 # access
