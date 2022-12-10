@@ -1,8 +1,8 @@
-# Use debian, slim version, to get a familiar environment
+# Use ubuntu to get a familiar environment
 # For local testing - docker run --rm -it debian:buster-slim /bin/bash
 FROM ubuntu:22.04
 
-# Updating and adding of tools/apps
+# Updating and adding of tools/apps/languages
 
 RUN apt-get update && \
       apt-get -y install software-properties-common \
