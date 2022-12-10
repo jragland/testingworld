@@ -2,7 +2,6 @@
 # package ecosystems to update and where the package manifests are located.
 # Please see the documentation for all configuration options:
 # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
-name: dependabot GH Action
 
 version: 2
 updates:
@@ -12,33 +11,51 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    commit-message:
+      # Prefix all commit messages with "npm"
+      prefix: "gh-actions"
 
   # Maintain dependencies for npm
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
+    commit-message:
+      # Prefix all commit messages with "npm"
+      prefix: "npm"
 
   # Maintain dependencies for Python
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
       interval: "weekly"
-  
+    commit-message:
+      # Prefix all commit messages with "npm"
+      prefix: "Python"
+
   # Maintain dependencies for Terraform
   - package-ecosystem: "terraform"
     directory: "/"
     schedule:
       interval: "weekly"
+    commit-message:
+      # Prefix all commit messages with "npm"
+      prefix: "Terraform"
   
   # Maintain dependencies for Go
   - package-ecosystem: "gomod"
     directory: "/"
     schedule:
       interval: "weekly"
-  
+    commit-message:
+      # Prefix all commit messages with "npm"
+      prefix: "Go"
+
     # Maintain dependencies for Docker
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
       interval: "weekly"
+    commit-message:
+      # Prefix all commit messages with "npm"
+      prefix: "Docker"
