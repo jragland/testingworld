@@ -12,7 +12,7 @@ updates:
     schedule:
       interval: "weekly"
     commit-message:
-      # Prefix all commit messages with "npm"
+      # Prefix all commit messages with "GitHub Actions"
       prefix: "gh-actions"
 
   # Maintain dependencies for npm
@@ -30,7 +30,7 @@ updates:
     schedule:
       interval: "weekly"
     commit-message:
-      # Prefix all commit messages with "npm"
+      # Prefix all commit messages with "Python"
       prefix: "Python"
 
   # Maintain dependencies for Terraform
@@ -39,7 +39,7 @@ updates:
     schedule:
       interval: "weekly"
     commit-message:
-      # Prefix all commit messages with "npm"
+      # Prefix all commit messages with "Terraform"
       prefix: "Terraform"
   
   # Maintain dependencies for Go
@@ -48,7 +48,7 @@ updates:
     schedule:
       interval: "weekly"
     commit-message:
-      # Prefix all commit messages with "npm"
+      # Prefix all commit messages with "Go"
       prefix: "Go"
 
     # Maintain dependencies for Docker
@@ -57,5 +57,5 @@ updates:
     schedule:
       interval: "weekly"
     commit-message:
-      # Prefix all commit messages with "npm"
+      # Prefix all commit messages with "Docker"
       prefix: "Docker"
