@@ -12,3 +12,7 @@ Currently, I am working on the following items:
     * Tested: Simple scripts to return strings
 * Build a "Hello World" Demo in Go
     * Tested: Able to run locally
+
+TO DO:
+* Figure out a template language to play with (jinja-based?)
+    ** sceptre is an option (for use with CloudFormation)
