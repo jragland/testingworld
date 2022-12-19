@@ -16,3 +16,4 @@ Currently, I am working on the following items:
 TO DO:
 * Figure out a template language to play with (jinja-based?)
     ** sceptre is an option (for use with CloudFormation)
+        ** this would prove to be a good choice as I could get practice at work too
