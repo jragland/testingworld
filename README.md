@@ -17,3 +17,4 @@ TO DO:
 * Figure out a template language to play with (jinja-based?)
     ** sceptre is an option (for use with CloudFormation)
         ** this would prove to be a good choice as I could get practice at work too
+* Investigate cool projects I can play with using TrueNAS Core
