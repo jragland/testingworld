@@ -1,7 +1,7 @@
 # Test Update
 # Use ubuntu to get a familiar environment
 # For local testing - docker run --rm -it debian:buster-slim /bin/bash
-FROM ubuntu:22.10
+FROM ubuntu:23.10
 
 # Updating and adding of tools/apps/languages
 
