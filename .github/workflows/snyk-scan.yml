@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Run Snyk to check Docker image for vulnerabilities
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       env:
         SNYK_TOKEN: ${{secrets.SNYK_TOKEN}}
