@@ -3,7 +3,7 @@
 # For local testing:
 #     docker run --rm -it debian:buster-slim \
 #     /bin/bash
-FROM ubuntu:mantic-20231011
+FROM ubuntu:mantic
 
 # Updating and adding of tools/apps/languages
 RUN apt-get update && \
