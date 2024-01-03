@@ -14,17 +14,20 @@ sudo apt-get install -y libdigest-sha-perl
 echo "Installing the following packages"
 
 echo "Install kubectl"
-curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.22.0/bin/linux/amd64/kubectl
+curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.*.0/bin/linux/amd64/kubectl
 chmod +x ./kubectl
 sudo mv ./kubectl /usr/local/bin/kubectl
 
-echo "Install istioctl"
-curl -LO https://istio.io/downloadIstioctl | sh - 
 
-echo "Configure istioctl to work with your PATH"
-export PATH=$HOME/.istioctl/bin:$PATH
-env
+# Likely going to remove the istio stuff
+# echo "Install istioctl"
+# curl -LO https://istio.io/downloadIstioctl | sh - 
 
+# echo "Configure istioctl to work with your PATH"
+# export PATH=$HOME/.istioctl/bin:$PATH
+# env
+
+##############################################################################################################################
 # echo "Install jq"
 # sudo apt-get -y install jq
 
