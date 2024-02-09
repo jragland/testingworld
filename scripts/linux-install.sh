@@ -15,6 +15,7 @@ echo "Installing the following packages"
 
 echo "Install kubectl"
 curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.*.0/bin/linux/amd64/kubectl
+wget https://storage.googleapis.com/kubernetes-release/release/v1.*.0/bin/linux/amd64/kubectl -q --show-progress
 chmod +x ./kubectl
 sudo mv ./kubectl /usr/local/bin/kubectl
 
