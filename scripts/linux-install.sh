@@ -5,10 +5,7 @@
 # Perform an update of apt-get and then perform an install 
 # of curl, wget, gnupg2, and libdigest-sha-perl to make your life easierf
 sudo apt-get update
-sudo apt-get install -y curl
-sudo apt-get install -y wget
-sudo apt-get install -y gnupg2
-sudo apt-get install -y libdigest-sha-perl
+sudo apt-get install -y curl wget gnupg2 libdigest-sha-perl
 
 # Install the following pieces of software
 echo "Installing the following packages"
