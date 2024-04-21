@@ -61,7 +61,7 @@ updates:
       prefix: "Docker"
 
     # Maintain dependencies for Bundler
-  - package-ecosystem: 'bundler'
+  - package-ecosystem: "bundler"
     directory: '/'
     schedule:
       interval: 'daily'
