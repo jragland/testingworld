@@ -59,3 +59,12 @@ updates:
     commit-message:
       # Prefix all commit messages with "Docker"
       prefix: "Docker"
+
+    # Maintain dependencies for Bundler
+  - package-ecosystem: 'bundler'
+    directory: '/'
+    schedule:
+      interval: 'daily'
+    commit-message:
+      # Prefix all commit messages with "Bundler"
+      prefix: "Bundler"      
