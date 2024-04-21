@@ -3,7 +3,7 @@
 # For local testing:
 #     docker run --rm -it debian:buster-slim \
 #     /bin/bash
-FROM ubuntu:mantic
+FROM ubuntu:noble
 
 # Updating and adding of tools/apps/languages
 RUN apt-get update && \
@@ -22,7 +22,7 @@ COPY scripts/linux-install.sh /tmp
 
 # The following will execute the copied script
 # in the container
-# CMD sh /tmp/linux-install.sh
+#     
 
 
 # UPDATE FOR TESTING PURPOSES
