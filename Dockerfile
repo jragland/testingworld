@@ -22,7 +22,3 @@ COPY scripts/linux-install.sh /tmp
 
 # The following will execute the copied script
 # in the container
-#     
-
-
-# UPDATE FOR TESTING PURPOSES
