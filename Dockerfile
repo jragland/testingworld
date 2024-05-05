@@ -15,12 +15,12 @@ RUN useradd -m docker && echo "docker:docker" | chpasswd && \
       adduser docker sudo
 USER docker
 
-# The following will copy a script to 
+# The following will copy scripts to 
 # the container for execution
 COPY scripts/linux-install.sh /tmp
+COPY scripts/ruby-test-script.rb /tmp
 
 # The following will execute the copied script
 # in the container
-
 
 CMD /bin/bash
