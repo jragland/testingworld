@@ -35,12 +35,9 @@ EOF
 )
 
 # Confirm versions of installed tools
-echo "The installed version of Ruby is ..."
-sudo ruby --version
-echo "The installed version of Node is ..."
-sudo nodejs --version
-echo "The installed version of jq is ..."
-sudo jq --version
+echo "The installed version of Ruby is ..." && sudo ruby --version
+echo "The installed version of Node is ..." && sudo nodejs --version
+echo "The installed version of jq is ..." && sudo jq --version
 
 # echo "Installing Go..."
 # curl -OL https://go.dev/dl/go1.19.linux-amd64.tar.gz
