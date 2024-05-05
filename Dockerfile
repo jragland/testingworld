@@ -23,6 +23,5 @@ COPY scripts/ruby-test-script.rb /tmp
 # The following will execute the copied script
 # in the container
 
-
 # Starting CMD
 CMD /bin/bash
