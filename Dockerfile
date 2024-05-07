@@ -6,8 +6,12 @@
 FROM --platform=linux/amd64 ubuntu:noble
 
 # Updating and adding of tools/apps/languages
-RUN apt-get update && \
-      apt-get -y install software-properties-common vim sudo
+RUN apt-get -qq -y update && \
+      apt-get -qq -y upgrade && \
+      apt-get -y autoclean && \
+      apt-get -y autoremove && \
+      apt-get -y software-properties-common vim sudo \
+      rm -rf /var/lib/apt/lists/*      
 
 # Adding the following to give me a user inside
 # the container with sudo access
