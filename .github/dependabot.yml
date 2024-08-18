@@ -15,7 +15,9 @@ updates:
       # Prefix all commit messages with "GitHub Actions"
       prefix: "gh-actions"
     assignees:
-      - "jragland"      
+      - "jragland"
+    reviewers:
+      - "jragland"
 
   # Maintain dependencies for npm
   - package-ecosystem: "npm"
@@ -26,6 +28,8 @@ updates:
       # Prefix all commit messages with "npm"
       prefix: "npm"
     assignees:
+      - "jragland"
+    reviewers:
       - "jragland"
 
   # Maintain dependencies for Python
@@ -38,6 +42,8 @@ updates:
       prefix: "Python"
     assignees:
       - "jragland"
+    reviewers:
+      - "jragland"
 
   # Maintain dependencies for Terraform
   - package-ecosystem: "terraform"
@@ -48,6 +54,8 @@ updates:
       # Prefix all commit messages with "Terraform"
       prefix: "Terraform"
     assignees:
+      - "jragland"
+    reviewers:
       - "jragland"
 
   # Maintain dependencies for Go
@@ -60,6 +68,8 @@ updates:
       prefix: "Go"
     assignees:
       - "jragland"
+    reviewers:
+      - "jragland"
 
     # Maintain dependencies for Docker
   - package-ecosystem: "docker"
@@ -71,6 +81,8 @@ updates:
       prefix: "Docker"
     assignees:
       - "jragland"
+    reviewers:
+      - "jragland"
 
     # Maintain dependencies for Bundler
   - package-ecosystem: "bundler"
@@ -81,4 +93,6 @@ updates:
       # Prefix all commit messages with "Bundler"
       prefix: "Bundler"   
     assignees:
-      - "jragland"   
+      - "jragland"
+    reviewers:
+      - "jragland"
