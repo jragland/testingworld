@@ -14,6 +14,8 @@ updates:
     commit-message:
       # Prefix all commit messages with "GitHub Actions"
       prefix: "gh-actions"
+    assignees:
+      - "jragland"      
 
   # Maintain dependencies for npm
   - package-ecosystem: "npm"
@@ -23,6 +25,8 @@ updates:
     commit-message:
       # Prefix all commit messages with "npm"
       prefix: "npm"
+    assignees:
+      - "jragland"
 
   # Maintain dependencies for Python
   - package-ecosystem: "pip"
@@ -32,6 +36,8 @@ updates:
     commit-message:
       # Prefix all commit messages with "Python"
       prefix: "Python"
+    assignees:
+      - "jragland"
 
   # Maintain dependencies for Terraform
   - package-ecosystem: "terraform"
@@ -41,7 +47,9 @@ updates:
     commit-message:
       # Prefix all commit messages with "Terraform"
       prefix: "Terraform"
-  
+    assignees:
+      - "jragland"
+
   # Maintain dependencies for Go
   - package-ecosystem: "gomod"
     directory: "/"
@@ -50,6 +58,8 @@ updates:
     commit-message:
       # Prefix all commit messages with "Go"
       prefix: "Go"
+    assignees:
+      - "jragland"
 
     # Maintain dependencies for Docker
   - package-ecosystem: "docker"
@@ -59,6 +69,8 @@ updates:
     commit-message:
       # Prefix all commit messages with "Docker"
       prefix: "Docker"
+    assignees:
+      - "jragland"
 
     # Maintain dependencies for Bundler
   - package-ecosystem: "bundler"
@@ -67,4 +79,6 @@ updates:
       interval: 'daily'
     commit-message:
       # Prefix all commit messages with "Bundler"
-      prefix: "Bundler"      
+      prefix: "Bundler"   
+    assignees:
+      - "jragland"   
