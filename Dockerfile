@@ -3,7 +3,7 @@
 # For local testing:
 #     docker run --rm -it debian:buster-slim \
 #     /bin/bash
-FROM --platform=linux/amd64 ubuntu:noble
+FROM --platform=linux/amd64 ubuntu:24.10
 
 # Updating and adding of tools/apps/languages
 RUN apt-get -qq -y update && \
