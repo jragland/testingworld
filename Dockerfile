@@ -21,8 +21,8 @@ USER docker
 
 # The following will copy scripts to 
 # the container for execution
-COPY scripts/linux-install.sh /tmp
-COPY scripts/ruby-test-script.rb /tmp
+COPY scripts/* /tmp
+
 
 # The following will execute the copied script
 # in the container
