@@ -16,8 +16,6 @@ updates:
       prefix: "gh-actions"
     assignees:
       - "jragland"
-    reviewers:
-      - "jragland"
 
   # Maintain dependencies for Python
   - package-ecosystem: "pip"
@@ -29,8 +27,6 @@ updates:
       prefix: "Python"
     assignees:
       - "jragland"
-    reviewers:
-      - "jragland"
 
     # Maintain dependencies for Docker
   - package-ecosystem: "docker"
@@ -41,6 +37,4 @@ updates:
       # Prefix all commit messages with "Docker"
       prefix: "Docker"
     assignees:
-      - "jragland"
-    reviewers:
       - "jragland"
