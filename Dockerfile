@@ -19,13 +19,3 @@ RUN useradd -m docker && echo "docker:docker" | chpasswd && \
       adduser docker sudo
 USER docker
 
-# The following will copy scripts to 
-# the container for execution
-COPY scripts/* /tmp
-
-
-# The following will execute the copied script
-# in the container
-
-# Starting CMD
-CMD /bin/bash
